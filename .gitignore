@@ -1,1 +1,47 @@
 node_modules
+IAC
+.terraform
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform crash log files
+crash.log
+
+# Terraform provider lock files
+.terraform.lock.hcl
+
+# Terraform variable files (with sensitive data)
+*.tfvars
+*.tfvars.json
+
+# Terraform plan files
+*.tfplan
+
+# Directory for Terraform's working files
+.terraform/
+
+# Local override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sensitive files that may contain secrets
+secret.tfvars
+
+# Ignore any backup files created by editors or Terraform
+*.backup
+*.bak
+
+# Log files
+*.log
+
+# Ignore sensitive environment files
+.env
+.env.*
+
+# Ignore any possible temporary or editor-specific files
+*.swp
+*.swo
+*.tmp
